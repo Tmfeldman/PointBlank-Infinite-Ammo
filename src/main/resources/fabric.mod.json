@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "pointblankinfiniteammo",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "This is an Tutorial Mod",
+	"name": "Point Blank Infinite Ammo",
+	"description": "Infinite Ammo for all Point Blank Guns",
 	"authors": [
-		"Me!"
+		"SteakBoi"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,23 +16,25 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.steakboi.tutorialmod.TutorialMod"
+			"net.steakboi.pointblankinfiniteammo.PointBlankInfiniteAmmo"
 		],
 		"fabric-datagen": [
-			"net.steakboi.tutorialmod.TutorialModDataGenerator"
+			"net.steakboi.pointblankinfiniteammo.PointBlankInfiniteAmmoDataGenerator"
 		],
 		"client": [
-			"net.steakboi.tutorialmod.TutorialModClient"
+			"net.steakboi.pointblankinfiniteammo.PointBlankInfiniteAmmoClient"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"pointblankinfiniteammo.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.7",
+		"fabricloader": ">=0.16.3",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"geckolib": ">=4.6.6",
+		"pointblank": ">=1.7.8"
 	},
 	"suggests": {
 		"another-mod": "*"

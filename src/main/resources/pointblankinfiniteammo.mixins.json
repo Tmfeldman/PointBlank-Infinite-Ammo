@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "net.steakboi.tutorialmod.mixin",
+	"package": "net.steakboi.pointblankinfiniteammo.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"PointBlankInfiniteAmmoMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

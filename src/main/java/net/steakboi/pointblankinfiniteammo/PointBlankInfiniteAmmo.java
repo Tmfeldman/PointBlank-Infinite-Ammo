@@ -1,12 +1,12 @@
-package net.steakboi.tutorialmod;
+package net.steakboi.pointblankinfiniteammo;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TutorialMod implements ModInitializer {
-	public static final String MOD_ID = "tutorialmod";
+public class PointBlankInfiniteAmmo implements ModInitializer {
+	public static final String MOD_ID = "pointblankinfiniteammo";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
